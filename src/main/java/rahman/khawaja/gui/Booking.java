@@ -27,14 +27,8 @@ public class Booking {
     private JLabel dateLabel;
     private JLabel timeLabel;
 
-    public Booking(Session session) {
+    public Booking(Session page) {
     }
-
-    public class ConcertBooking extends JFrame {
-
-        private JPanel currentPanel;
-        private JTextField txtTickets;
-
 
         public ConcertBooking() {
             final int capacity = 50;
@@ -141,4 +135,4 @@ public class Booking {
 
         }
     }
-}
+
